@@ -3,3 +3,6 @@ rules:
   - base: master
     upstream: CompEpigen:master    # change `wei` to the owner of upstream repo
     mergeMethod: hardreset
+  - base: development
+    upstream: CompEpigen:development    # change `wei` to the owner of upstream repo
+    mergeMethod: hardreset
