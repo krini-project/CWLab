@@ -6,3 +6,6 @@ rules:
   - base: development
     upstream: CompEpigen:development    # change `wei` to the owner of upstream repo
     mergeMethod: hardreset
+  - base: feature/oidcsupport
+    upstream: CompEpigen:feature/oidcsupport    # change `wei` to the owner of upstream repo
+    mergeMethod: hardreset
